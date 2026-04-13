@@ -1,5 +1,6 @@
 import './assets/css/global.css'
+import Router from './router'
 
 export default function App(): React.JSX.Element {
-  return <div id="app-shell">Be The Hero — booting…</div>
+  return <Router />
 }
